@@ -1,10 +1,6 @@
 /* 文章标题居中 */
-#page-header #post-info {
- position:absolute;
- bottom:5rem;
- padding:0 8%;
- width:100%;
- text-align:center;
+#page h1.page-title,#post>#post-info {
+    text-align: center
 }
 /* 导航栏置顶透明覆盖 */
 #page-header.not-top-img #nav {
